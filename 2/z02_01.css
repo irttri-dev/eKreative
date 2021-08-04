@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS #02_v.01 Document */
+
+.all {
+	display:flex;
+	flex-basis: auto;
+	width:300px;
+	margin: auto;
+}
+form {
+	color:#039;
+	width:300px;
+}
+.titel {
+	color:#06C;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	width:300px;
+}
+
+.box_menu {
+	color:#039;
+	border: 2px solid #CCC;
+	width: 260px;
+	padding: 16px;
+	border-radius:5px;
+	box-shadow: 0 0 5px #CCCCCC;
+}
+
+input[type="text"], input[type="password"] {
+	color:#003;
+	border:2px solid #69F;
+	border-radius:5px;
+	padding: 5px;
+	width: 240px;
+}
+input[type="submit"] {
+    color:#FFF;
+    background: #06C;
+	border-radius:5px;
+    padding: 5px; 
+	width: 250px;
+   }
+ 
+.container {
+    display: block;
+    user-select: none;
+	display:flex;
+}
+.container input {
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+.checkmark {
+    height: 14px;
+    width: 14px;
+    background-color: #FFF;
+	border:1px solid #999;
+}
+.checktext {
+	padding-left:15px;
+}
+.container:hover input ~ .checkmark {
+    background-color: #FFF;
+}
+.container input:checked ~ .checkmark {
+    background-color: #2196f3;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+.container .checkmark:after {
+    left: 4px;
+    top: -2px;
+    width: 5px;
+    height: 10px;
+    border: solid #FFFFFF;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+	position:relative;
+}
+.end {
+	color:#039;
+	font-size:16px;
+	text-align:center;
+	width:300px;
+}
+a {
+	text-decoration: none;
+	color:#39F
+}
+a:visited {
+    color: #39F; 
+}
+a:active {
+    color: #39F;
+}
+a:hover {
+    color: #39F;
+}
+a:active {
+    color: #39F; 
+}
