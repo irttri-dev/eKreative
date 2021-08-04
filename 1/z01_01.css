@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS #01_v.01 Document */
+
+div {
+  padding-bottom:14px;
+}
+.pole {
+  background-color: #FF6;
+  border: 2px solid #96C;
+  border-radius: 15px;
+  padding-bottom:10px;
+  padding-top:10px;
+  padding-left:14px;
+  margin:10px;
+  width:490px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cub {
+  background-color: #EEDDFF;
+  border: 2px solid #96C;
+  border-radius: 15px;
+  padding-bottom:10px;
+  padding-top:10px;
+  padding-left:14px;
+  margin:10px;
+  width:120px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cub_no {
+  border-radius: 15px;
+  padding-bottom:0px;
+  padding-left:18px;
+  margin:10px;
+  width:120px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.no_point {
+	height:0px;
+	width:16px;
+    border: 0px;
+	margin:10px;
+}
+.yes_point {
+	height:0px;
+	width:14px;
+    background-color: #96C;
+	border-radius: 15px;
+	margin:10px;
+}
